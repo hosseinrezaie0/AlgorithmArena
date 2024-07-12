@@ -1,19 +1,19 @@
 citations = [3,0,6,1,5]
 
-NumberOfCited = 0
+H_Index = 0
 NumberOfPaper = len(citations)
 
-while (NumberOfCited < NumberOfPaper):
+while (H_Index < NumberOfPaper):
 
     NumberOfPaper = len(citations)
-    NumberOfCited += 1
+    H_Index += 1
 
     for i in range (len(citations)):
-        if NumberOfCited > citations[i]:
+        if H_Index > citations[i]:
             NumberOfPaper -= 1
     
 
-if NumberOfCited == NumberOfPaper:
-    print(NumberOfCited)
+if H_Index == NumberOfPaper:
+    print(H_Index)
 else:
-    print(NumberOfCited-1)
+    print(H_Index-1)
