@@ -3,4 +3,4 @@ Here we try to solve algorithmic programming problems
 - main file
   that includes the code
 - explanation file
-  that define the problem itself with examples
+  that includes the explanation of the problem with examples
