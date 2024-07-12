@@ -1,1 +1,1 @@
-Here we try to solve algorithmic proramming problems
+Here we try to solve algorithmic programming problems
