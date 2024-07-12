@@ -1,6 +1,6 @@
 Here we try to solve algorithmic programming problems
 ## Each folder contains:
-- main
+- main file
   that includes the code
-- explanation
+- explanation file
   that define the problem itself with examples
